@@ -14,4 +14,4 @@ keras==2.4.3
 tensorflow==2.2.0
 scipy
 opencv-python
-PIL
+pillow
