@@ -2,7 +2,7 @@
 0. Make sure git and python are installed in your system.
 1. Download MnistDigitWebApp
 ```
-git clone
+git clone https://github.com/Joyel1441/MnistDigitWebApp
 ```
 2. Install all the requirements.
 ```
