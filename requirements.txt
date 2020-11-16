@@ -8,10 +8,7 @@ itsdangerous==1.1.0
 Jinja2==2.10.1
 MarkupSafe==1.1.1
 Werkzeug==0.15.5
-numpy
-h5py==2.10.0
 keras==2.4.3
 tensorflow==2.2.0
-scipy==1.4.1
 opencv-python
 pillow
