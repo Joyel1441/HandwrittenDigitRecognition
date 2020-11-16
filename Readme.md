@@ -16,4 +16,4 @@ python app.py
 Open your browser and type that address to run the app
 
 Credits:\
-Image preprocessing: [opensourceblog](https://github.com/opensourcesblog/tensorflow-mnist)
+Image preprocessing: [opensourcesblog](https://github.com/opensourcesblog/tensorflow-mnist)
