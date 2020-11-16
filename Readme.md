@@ -8,7 +8,7 @@ git clone https://github.com/Joyel1441/MnistDigitWebApp
 ```
 pip install -r requirements.txt
 ```
-3. Go to the downloaded app folder and run the following code in the terminal.
+3. And in the downloaded directory run the following code in the terminal.
 ```
 python app.py
 ```
