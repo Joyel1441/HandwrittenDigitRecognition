@@ -1,6 +1,6 @@
 # Installation guide:
 0. Make sure git and python are installed in your system.
-1. Download MnistDigitWebApp
+1. Download HandwrittenDigitRecognition
 ```
 git clone https://github.com/Joyel1441/HandwrittenDigitRecognition
 ```
