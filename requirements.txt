@@ -12,6 +12,6 @@ numpy
 h5py
 keras==2.4.3
 tensorflow==2.2.0
-scipy
+scipy==1.4.1
 opencv-python
 pillow
