@@ -11,3 +11,5 @@ pip install -r requirements.txt
 ```
 python app.py
 ```
+4. An address will be displayed on your terminal, for example http://127.0.0.1:5000
+Open your browser any type that address to run the app
