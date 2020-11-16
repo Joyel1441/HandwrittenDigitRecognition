@@ -15,5 +15,5 @@ python app.py
 4. An address will be displayed on your terminal, for example http://127.0.0.1:5000.
 Open your browser and type that address to run the app
 
-Credits:. 
+Credits:\
 Image preprocessing: [opensourceblog](https://github.com/opensourcesblog/tensorflow-mnist)
