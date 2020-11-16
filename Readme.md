@@ -18,4 +18,4 @@ Open your browser and type that address to run the app
 Credits:\
 Image preprocessing: [opensourcesblog](https://github.com/opensourcesblog/tensorflow-mnist)
 
-More (Projects)[https://www.joyel1441.ml]
+More [Projects](https://www.joyel1441.ml)
