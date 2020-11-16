@@ -1,4 +1,5 @@
 # Installation guide:
+0. Make sure git and python are install in your system.
 1. Download MnistDigitClassifier flask app
 ```
 git clone
