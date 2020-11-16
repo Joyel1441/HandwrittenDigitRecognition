@@ -8,6 +8,6 @@ wheel==0.24.0
 h5py
 numpy
 keras==2.4.3
-tensorflow==2.2.0
+tensorflow==1.7.0
 opencv-python
 pillow
