@@ -44,5 +44,5 @@ def form():
     except:
         return render_template("index.html",image_name="No proper image file selected")   
 if __name__ == "__main__":
-  app.run(debug = True)
+  app.run()
   
