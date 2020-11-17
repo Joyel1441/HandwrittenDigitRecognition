@@ -16,8 +16,8 @@ python app.py
 Open your browser and type that address to run the app
 
 Credits:\
-Image preprocessing: [opensourcesblog](https://github.com/opensourcesblog/tensorflow-mnist)
-Dataset: [MNIST handwritten digits dataset](https://www.kaggle.com/c/digit-recognizer/data)
+Image preprocessing: [opensourcesblog](https://github.com/opensourcesblog/tensorflow-mnist)\
+Dataset: [MNIST handwritten digits dataset](https://www.kaggle.com/c/digit-recognizer/data)\
 
 Extra:\
 [My Website](https://www.joyel1441.ml)
