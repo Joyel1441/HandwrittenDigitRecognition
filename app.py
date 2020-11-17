@@ -1,7 +1,7 @@
 from flask import Flask,render_template,request
 import os
 import numpy as np
-import tensorflow
+#import tensorflow
 import keras
 import PIL
 from PIL import Image, ImageOps
@@ -16,7 +16,7 @@ def index():
 
 @app.route("/form",methods=["POST"])
 def form():
-    file_path = ""
+    file_path = "" 
     cnn = keras.models.load_model('dr.h5')
     try:
        if request.method == "POST":
@@ -44,5 +44,5 @@ def form():
     except:
         return render_template("index.html",image_name="No proper image file selected")   
 if __name__ == "__main__":
-  app.run()
+  app.run() 
   
