@@ -29,12 +29,12 @@
     <form action={{ url_for("form") }} method="post" enctype="multipart/form-data" class="predicted_value">
     
     <div class="input-group mb-3" style="margin-top: 5%;">
+   <div class="input-group-prepend">
+  <input class="input-group-text" id="inputGroupFileAddon01" type="submit" value="Upload">
+  </div>
   <div class="custom-file">
     <input type="file" name="image" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01" onchange="$('#file_name').html(this.files[0].name)">   
     <label class="custom-file-label" for="inputGroupFile01" id="file_name">Choose file</label>
-  </div>
-  <div class="input-group-prepend">
-  <input class="input-group-text" id="inputGroupFileAddon01" type="submit" value="Upload">
   </div>
    </div>
     </form>
