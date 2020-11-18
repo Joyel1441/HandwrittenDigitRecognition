@@ -20,5 +20,5 @@ Image preprocessing: [opensourcesblog](https://github.com/opensourcesblog/tensor
 Dataset: [MNIST handwritten digits dataset](https://www.kaggle.com/c/digit-recognizer/data)
 
 Extra:\
-[My Website](https://www.joyel1441.ml)
+[My Website](https://www.joyel1441.ml)\
 [Live app](handwrittendigitrecognitionapp.herokuapp.com)
