@@ -21,3 +21,4 @@ Dataset: [MNIST handwritten digits dataset](https://www.kaggle.com/c/digit-recog
 
 Extra:\
 [My Website](https://www.joyel1441.ml)
+[Live app](handwrittendigitrecognitionapp.herokuapp.com)
