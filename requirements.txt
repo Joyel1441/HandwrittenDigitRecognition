@@ -11,4 +11,3 @@ keras==2.4.3
 tensorflow-cpu==2.2.0
 opencv-python
 pillow
-libgl1
