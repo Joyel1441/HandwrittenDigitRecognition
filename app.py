@@ -38,6 +38,7 @@ def form():
          img_arr = img_arr.astype("float32")
          img_arr = img_arr / 255.0
          img_arr = np.expand_dims(img_arr,axis = 0)
+         # prediction
          predict = cnn.predict(img_arr)
          pred = np.argmax(predict[0])
          os.remove(file_path)
