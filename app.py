@@ -30,7 +30,7 @@ def form():
          # to training data
          a = Preprocess()
          a.preprocess(file_path)
-         # image is converted grayscale
+         # image is converted to grayscale
          # and then to numpy array
          image = Image.open('./static/uploaded_images/preprocessed.jpeg') 
          image = ImageOps.grayscale(image)
