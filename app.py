@@ -17,19 +17,22 @@ def index():
 @app.route("/form",methods=["POST"])
 def form():
     file_path = "" 
+    # load the model
     cnn = keras.models.load_model('dr.h5')
     try:
+       # get the image
        if request.method == "POST":
          image = request.files['image']
          img_name = image.filename
          file_path = os.path.join('./static/uploaded_images', img_name)
          image.save(file_path)
+         # preprocess images to make it similar
+         # to training dat
          a = Preprocess()
          a.preprocess(file_path)
+         # image conversion to numpy array 
          image = Image.open('./static/uploaded_images/preprocessed.jpeg') 
-        # image = image.resize((28,28))
          image = ImageOps.grayscale(image)
-       #  image = ImageOps.invert(image) 
          img_arr = img.img_to_array(image)
          img_arr = img_arr.astype("float32")
          img_arr = img_arr / 255.0
