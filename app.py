@@ -26,11 +26,12 @@ def form():
          img_name = image.filename
          file_path = os.path.join('./static/uploaded_images', img_name)
          image.save(file_path)
-         # preprocess images to make it similar
-         # to training dat
+         # preprocess the image to make it similar
+         # to training data
          a = Preprocess()
          a.preprocess(file_path)
-         # image conversion to numpy array 
+         # image is converted grayscale
+         # and then to numpy array
          image = Image.open('./static/uploaded_images/preprocessed.jpeg') 
          image = ImageOps.grayscale(image)
          img_arr = img.img_to_array(image)
